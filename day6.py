@@ -4,7 +4,6 @@ def alph(c):
         return ord(c) - ord('a')
     return ord(c) - ord('A')
 
-
 def firstUnrepeatedStringEnds(digit):
     dic = [-1 for x in range(27)]
 
